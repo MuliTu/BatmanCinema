@@ -1,0 +1,66 @@
+.container {
+  transition: box-shadow 2s;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.8);
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 650px;
+  min-width: 300px;
+  margin: 12px;
+  border-radius: 10px;
+  .info {
+    width: 350px;
+    margin: 10px;
+    text-align: left;
+    color: white;
+    .title {
+      width: 100%;
+      font-size: 1.5vw;
+      font-weight: bold;
+      .id {
+        font-size: 10px;
+        font-weight: bold;
+        display: inline-block;
+        color: gray;
+        margin-left: 3px;
+      }
+    }
+    .ganers {
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 1;
+    }
+    .information {
+      margin-top: 5px;
+      font-size: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      .plot {
+        flex-basis: 80%;
+        margin-top: 10px;
+        font-size: 13px;
+      }
+      .director {
+        font-size: 13px;
+        flex-basis: 20%;
+      }
+    }
+    hr {
+      border-color: gray;
+    }
+
+  }
+  &:hover {
+    transition: box-shadow 1s;
+    box-shadow: 0 0 0 0 rgba(0, 0, 1, 0.55);
+  }
+}
