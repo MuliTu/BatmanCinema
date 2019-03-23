@@ -3,6 +3,7 @@ import './Box.scss'
 import Poster from '../Poster/Poster';
 
 const Box = ({movie}) => {
+
     return (
         <div className='container'>
             <Poster path={movie['Poster']}/>
@@ -25,12 +26,10 @@ const Box = ({movie}) => {
                         Director: {movie['Director']}
                     </div>
                 </div>
-
-
             </div>
-
         </div>
     );
 };
+
 
 export default Box;

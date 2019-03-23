@@ -1,1 +1,0 @@
-export const getMovies = (state) => {return state.list};
