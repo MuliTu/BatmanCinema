@@ -1,4 +1,4 @@
-import { ADD_MOVIE, CURRENT_MOVIE, DELETE_MOVIE, EDIT_MOVIE, GET_MOVIES, SAVE_EDITED_MOVIE } from './types';
+import { ADD_MOVIE, CURRENT_MOVIE, DELETE_MOVIE, GET_MOVIES, SAVE_EDITED_MOVIE } from './types';
 import * as getters from './selectors'
 
 const initialState = {
@@ -21,14 +21,14 @@ export default function reducer(state = initialState, action) {
         case CURRENT_MOVIE:
             return {...state, currentMovieIndex: action.payload, currentMovie: state.list[action.payload]};
 
-        case EDIT_MOVIE:
-            return null;
-
         case ADD_MOVIE:
             return {...state, list: [action.payload, ...state.list]};
 
         case SAVE_EDITED_MOVIE:
-            console.log(action.payload);
+            const temp = state.list.slice();
+            temp[state.currentMovieIndex] = action.payload;
+            return {...state, list: [...temp]};
+
         default:
             return state
     }

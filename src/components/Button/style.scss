@@ -1,6 +1,6 @@
 .button {
   cursor: pointer;
-  transition: box-shadow 0.5s ;
+  transition: box-shadow 0.5s;
   width: 100px;
   height: 30px;
   font-size: 15px;
@@ -10,10 +10,10 @@
   border-radius: 8px;
   margin: 3px;
   &:hover {
-    transition: box-shadow 0.5s ;
+    transition: box-shadow 0.5s;
     box-shadow: 1px 1px 1px 1px #696969;
   }
-  &:disabled{
+  &:disabled {
     background-color: #252525;
 
   }

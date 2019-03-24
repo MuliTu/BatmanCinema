@@ -1,6 +1,6 @@
 import React from 'react';
 import DeleteMovie from '../DeleteMovie';
-import EditMovie from '../EditMovie';
+import EditMovie from '../EditPage/EditPage';
 
 const mainStyle = {
     modal: {
@@ -15,32 +15,27 @@ const mainStyle = {
         color: 'white',
     }
 };
-export const componentRandreing = (type) => {
+export const popUpCases = (type) => {
     switch (type) {
         case 'delete':
-            const deleteStyle = {
-                modal: {
+            const deleteStyle = {modal: {
                     ...mainStyle.modal,
                     background: 'rgba(255,0,0, 0.7)',
                     height: '100px',
-                }
-            };
+                }};
             return {
                 style: deleteStyle,
                 component: <DeleteMovie/>
             };
+        case 'add':
         case 'edit':
-            const editStyle = {
-                modal: {
-                    ...mainStyle.modal,
-                    background: 'rgba(46, 49, 49, 0.5)',
-                    height: 'auto',
-                }
+            const editStyle = {modal: {...mainStyle.modal, background: 'rgba(46, 49, 49, 0.5)', height: 'auto',}
             };
             return {
                 style: editStyle,
                 component: <EditMovie/>
             };
+
         default:
             return 'null'
     }

@@ -3,7 +3,7 @@ import { CLOSE, OPEN } from './types';
 
 const initialState = {
     isOpen: false,
-    type:''
+    type: ''
 };
 
 export default function reducer(state = initialState, action) {
@@ -19,8 +19,9 @@ export default function reducer(state = initialState, action) {
     }
 }
 export const getCurrentModalState = (state) => {
-    return getters.getCurrentModalState( state )
+    return getters.getCurrentModalState(state)
 };
+
 export const getType = (state) => {
     return getters.getCurrentType(state)
-}
+};

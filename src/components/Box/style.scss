@@ -1,3 +1,5 @@
+$screen: 730px;
+
 .container {
   transition: box-shadow 2s;
   cursor: pointer;
@@ -11,6 +13,9 @@
   margin: 12px;
   border-radius: 10px;
   .info {
+    @media screen and (max-width: $screen) {
+      width: auto;
+    }
     width: 350px;
     margin: 10px;
     text-align: left;
@@ -27,7 +32,8 @@
         margin-left: 3px;
       }
     }
-    .ganers {
+    .genre {
+      margin-top: 3px;
       font-weight: bold;
       font-size: 10px;
       line-height: 1;
@@ -44,6 +50,10 @@
       flex-direction: column;
       height: 200px;
       .plot {
+        @media screen and (max-width: $screen) {
+          overflow-y: scroll;
+        }
+        height: auto;
         flex-basis: 80%;
         margin-top: 10px;
         font-size: 13px;
@@ -67,3 +77,4 @@
     width: 0;
   }
 }
+
