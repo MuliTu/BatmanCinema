@@ -5,8 +5,10 @@
     height: 150px;
     line-height: 142px;
     color: white;
+    background-image: url(http://pngimg.com/uploads/batman/batman_PNG41.png);
     background-size: 455px 131px;
-    background: url(http://pngimg.com/uploads/batman/batman_PNG41.png) no-repeat center;
+    background-repeat: no-repeat;
+    background-position: center;
 
   }
 }
