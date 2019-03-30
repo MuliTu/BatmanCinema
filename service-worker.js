@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BatmanCinema/precache-manifest.9b7705486745d8785c51cef04fba7a3e.js"
+  "/BatmanCinema/precache-manifest.5cf8ffc99685129adb53e4e4b0bf5c68.js"
 );
 
 workbox.clientsClaim();
