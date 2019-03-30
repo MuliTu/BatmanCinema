@@ -1,13 +1,13 @@
 {
-  "main.css": "/HeroloCinema/static/css/main.dddd898f.chunk.css",
-  "main.js": "/HeroloCinema/static/js/main.386e6bcf.chunk.js",
-  "main.js.map": "/HeroloCinema/static/js/main.386e6bcf.chunk.js.map",
-  "runtime~main.js": "/HeroloCinema/static/js/runtime~main.4250b9ab.js",
-  "runtime~main.js.map": "/HeroloCinema/static/js/runtime~main.4250b9ab.js.map",
-  "static/js/2.0e78a26c.chunk.js": "/HeroloCinema/static/js/2.0e78a26c.chunk.js",
-  "static/js/2.0e78a26c.chunk.js.map": "/HeroloCinema/static/js/2.0e78a26c.chunk.js.map",
-  "index.html": "/HeroloCinema/index.html",
-  "precache-manifest.63b0e74cac55e983b80ad5f2851581be.js": "/HeroloCinema/precache-manifest.63b0e74cac55e983b80ad5f2851581be.js",
-  "service-worker.js": "/HeroloCinema/service-worker.js",
-  "static/css/main.dddd898f.chunk.css.map": "/HeroloCinema/static/css/main.dddd898f.chunk.css.map"
+  "main.css": "/BatmanCinema/static/css/main.dddd898f.chunk.css",
+  "main.js": "/BatmanCinema/static/js/main.31b21038.chunk.js",
+  "main.js.map": "/BatmanCinema/static/js/main.31b21038.chunk.js.map",
+  "runtime~main.js": "/BatmanCinema/static/js/runtime~main.a70867c2.js",
+  "runtime~main.js.map": "/BatmanCinema/static/js/runtime~main.a70867c2.js.map",
+  "static/js/2.734ccdd8.chunk.js": "/BatmanCinema/static/js/2.734ccdd8.chunk.js",
+  "static/js/2.734ccdd8.chunk.js.map": "/BatmanCinema/static/js/2.734ccdd8.chunk.js.map",
+  "index.html": "/BatmanCinema/index.html",
+  "precache-manifest.9b7705486745d8785c51cef04fba7a3e.js": "/BatmanCinema/precache-manifest.9b7705486745d8785c51cef04fba7a3e.js",
+  "service-worker.js": "/BatmanCinema/service-worker.js",
+  "static/css/main.dddd898f.chunk.css.map": "/BatmanCinema/static/css/main.dddd898f.chunk.css.map"
 }
