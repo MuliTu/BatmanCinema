@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/BatmanCinema/static/js/runtime~main.a70867c2.js"
   },
   {
-    "revision": "32009b63df011eb89241",
+    "revision": "9cf9d621b49f06593300",
     "url": "/BatmanCinema/static/js/main.31b21038.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/BatmanCinema/static/js/2.734ccdd8.chunk.js"
   },
   {
-    "revision": "32009b63df011eb89241",
-    "url": "/BatmanCinema/static/css/main.45cd29f0.chunk.css"
+    "revision": "9cf9d621b49f06593300",
+    "url": "/BatmanCinema/static/css/main.a12cf8cb.chunk.css"
   },
   {
-    "revision": "f13fad2440ff492cbbdbf5f624d53d8c",
+    "revision": "db2fab8683d3d57757f697d8b02d8f0d",
     "url": "/BatmanCinema/index.html"
   }
 ];
