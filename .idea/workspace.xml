@@ -4,17 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45247732-1bc8-4d87-be60-352549cda3aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/EditPage/EditPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/EditPage/EditPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/PopUp/utilis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PopUp/utilis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/Movie/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/Movie/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/Movie/movieReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/Movie/movieReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/Movie/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/Movie/types.js" afterDir="false" />
-    </list>
+    <list default="true" id="45247732-1bc8-4d87-be60-352549cda3aa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -74,7 +64,7 @@
         <counts>
           <entry key="css" value="34" />
           <entry key="html" value="22" />
-          <entry key="js" value="15052" />
+          <entry key="js" value="15059" />
           <entry key="json" value="23" />
           <entry key="sass" value="1" />
           <entry key="scss" value="1830" />
@@ -85,7 +75,7 @@
           <entry key="CSS" value="34" />
           <entry key="HTML" value="22" />
           <entry key="JSON" value="23" />
-          <entry key="JavaScript" value="15030" />
+          <entry key="JavaScript" value="15037" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="SCSS" value="1820" />
           <entry key="Sass" value="1" />
@@ -412,18 +402,17 @@
       <workItem from="1553410164332" duration="153000" />
       <workItem from="1553411135541" duration="8431000" />
       <workItem from="1553501327251" duration="1000" />
-      <workItem from="1553960112730" duration="1247000" />
+      <workItem from="1553960112730" duration="1505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67292000" />
+    <option name="totallyTimeSpent" value="67550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12718505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12718505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -437,7 +426,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34489796" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34489796" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
