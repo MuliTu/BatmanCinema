@@ -15,6 +15,7 @@ const mainStyle = {
         color: 'white',
     }
 };
+const editStyle = {modal: {...mainStyle.modal, background: 'rgba(46, 49, 49, 0.5)', height: 'auto',}};
 export const popUpCases = (type) => {
     switch (type) {
         case 'delete':
@@ -28,12 +29,15 @@ export const popUpCases = (type) => {
                 component: <DeleteMovie/>
             };
         case 'add':
-        case 'edit':
-            const editStyle = {modal: {...mainStyle.modal, background: 'rgba(46, 49, 49, 0.5)', height: 'auto',}
-            };
             return {
                 style: editStyle,
-                component: <EditMovie/>
+                component: <EditMovie isNew={true}/>
+            };
+
+        case 'edit':
+            return {
+                style: editStyle,
+                component: <EditMovie isNew={false}/>
             };
 
         default:

@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { getCurrentMovie, getCurrentTitles } from '../../store/index';
 import { closePopUp } from '../../reducers/PopUp/actions';
-import { saveEditedMovie } from '../../reducers/Movie/actions';
+import { deleteNewMovie, saveEditedMovie } from '../../reducers/Movie/actions';
 import Poster from '../../components/Poster/Poster';
 import Button from '../../components/Button/Button';
 import { fixTitle, isTitleEqual, isTitleExist, isValidInput } from './utilis';
@@ -12,6 +12,7 @@ import '../../components/Box/style.scss'
 
 class EditPage extends React.Component {
     constructor(props) {
+        console.log('props', props);
         super(props);
         this.state = {
             movie: {
@@ -26,7 +27,9 @@ class EditPage extends React.Component {
                 type: props.movie.type,
             },
             oldTitle: props.movie.title,
-            isValid: true
+            isValid: true,
+            isNew:props.isNew
+
 
         }
     }
@@ -50,6 +53,7 @@ class EditPage extends React.Component {
 
     render() {
         const {title, id, year, plot, genre, runtime, poster, director, type} = this.state.movie;
+        const {isNew} = this.state;
         return (
             <div className='container'>
                 <div>
@@ -111,7 +115,17 @@ class EditPage extends React.Component {
                     this.props.closePopUp()
                 }}
                         disable={!this.state.isValid}/>
-                <Button label={'Cancel'} onClick={this.props.closePopUp}/>
+                {
+                    isNew ?
+                        <Button label={'Cancel'} onClick={() => {
+                            this.props.deleteNewMovie();
+                            this.props.closePopUp();
+                        }
+                        }/>
+                        :
+                        <Button label={'Cancel'} onClick={this.props.closePopUp}/>
+                }
+
             </div>
         );
     }
@@ -122,4 +136,4 @@ const mapStateToProps = state => ({
     list: getCurrentTitles(state)
 });
 
-export default connect(mapStateToProps, {closePopUp, saveEditedMovie})(EditPage);
+export default connect(mapStateToProps, {closePopUp, saveEditedMovie, deleteNewMovie})(EditPage);

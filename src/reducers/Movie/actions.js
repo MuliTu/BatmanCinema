@@ -47,3 +47,5 @@ export const addMovie = () => dispatch => {
 };
 
 export const saveEditedMovie = (movie) => dispatch => dispatch({type: 'SAVE_EDITED_MOVIE', payload: movie});
+
+export const deleteNewMovie = () => dispatch => dispatch({type: 'DELETE_NEW_MOVIE'});

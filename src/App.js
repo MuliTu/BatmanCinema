@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import { openPopUp } from './reducers/PopUp/actions';
 
 class App extends React.Component {
-    title = 'Herolo Cinema';
+    title = 'Batman Cinema';
 
     openModal = (index, type) => {
         this.props.setMovieIndex(index);
